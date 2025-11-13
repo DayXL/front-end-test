@@ -1,0 +1,13 @@
+.bodyHome {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 80px;
+}
+
+.bodyHome p {
+    font-size: 30px;
+    margin: 0px;
+    color: #42163A;
+    font-family: 'Gotham', sans-serif;
+}

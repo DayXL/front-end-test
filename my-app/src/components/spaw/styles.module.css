@@ -1,0 +1,58 @@
+.cardSpawAlert {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(90deg, #5B1E50, #8C2E7C);
+  color: white;
+  border-radius: 16px;
+  padding: 24px 32px;
+  max-width: 700px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  position: relative;
+  margin: 20px auto;
+}
+
+.buttonClose {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+
+.button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: white;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button:hover {
+  opacity: 0.7;
+}
+
+.p1 {
+  font-family: 'Gotham', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.p2 {
+  font-family: 'Gotham', sans-serif;
+  font-size: 0.6rem;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: 8px;
+  width: 12px;
+}
