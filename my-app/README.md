@@ -1,13 +1,13 @@
 # Teste-bitwise
 
-## Como instalar e rodar o projeto:
+## How to install and run the project:
 
-Em ./src/services/config crie uma .env como o exemplo e troque a palavra "key" pelo seu token da api do github.
+Create a .env file like the example and replace the word "key" with your GitHub API token.
 
-Instale as bibliotecas e dependências necessárias com:
+Install the necessary libraries and dependencies with:
 
 npm install
 
-rode o projeto com:
+Run the project with:
 
 npm run dev
