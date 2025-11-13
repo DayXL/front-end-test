@@ -19,4 +19,3 @@ function SearchBar({value, onChange, onSubmit}) {
 }
 
 export default SearchBar;
-

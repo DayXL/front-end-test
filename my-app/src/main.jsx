@@ -5,9 +5,9 @@ import client from './services/apolloclient.js';
 import { ApolloProvider } from '@apollo/client/react';
 
 createRoot(document.getElementById('root')).render(
-    <ApolloProvider client={client}>
-        <BrowserRouter>
-            <App />
-        </BrowserRouter>
-    </ApolloProvider>
+  <ApolloProvider client={client}>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </ApolloProvider>
 )
