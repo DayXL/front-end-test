@@ -1,0 +1,51 @@
+.footBar {
+    background-color: #290E25;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.fisrtFootBar {
+    gap: 140px;
+    display: flex;
+    justify-content: space-between;
+    width: 96%;
+    margin-bottom: 50px;
+    font-size: 12px;
+}
+
+.divLogoVision, .divAddress {
+    gap: 40px;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    align-items: right;
+}
+
+.line {
+    display: flex;
+    flex-direction: row;
+    border-left: 880px solid #FFFFFF;
+    height: 2px;
+    margin: 20 15px;
+}
+
+.secondFootBar {
+    gap: 150px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 50px;
+    font-size: 12px;
+    padding: 40px 0px;
+}
+
+.button button {
+    background-color: #290E25;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
